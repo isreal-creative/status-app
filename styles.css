@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.status-app {
+  width: 90%;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Upload Section */
+.upload-section {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.upload-section h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.upload-box {
+  margin-top: 10px;
+}
+
+.custom-upload {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.custom-upload input[type="file"] {
+  display: none;
+}
+
+.custom-upload span {
+  font-size: 14px;
+}
+
+/* Status Timeline */
+.status-timeline {
+  padding: 20px;
+}
+
+.status-timeline h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.status-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.status-item {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+.status-item img {
+  width: 100%;
+  height: auto;
+}
+
+.status-username {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
